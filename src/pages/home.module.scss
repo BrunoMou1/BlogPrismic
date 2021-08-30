@@ -1,0 +1,58 @@
+.container{
+  max-width: 700px;
+  margin: 0 auto;
+
+  a{
+    display: block;
+    border-bottom: 1px solid rgba($color: #BBBBBB, $alpha: 0.2);
+    padding: 1rem 0;
+
+    h1{
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: var(--white);
+
+      transition: color 0.2s;
+    }
+
+    p{
+      font-size: 1rem;
+      font-weight: 400;
+      color: var(--gray-300);
+      margin: 1rem 0 2rem 0;
+      
+    }
+
+    div{
+      display: flex;
+      align-items: center;
+      color: var(--gray-500);
+
+      svg{
+        margin-right: 0.5rem;
+      }
+
+      svg:last-child{
+        margin-left: 2rem;
+      }
+    }
+  }
+
+  a:hover{
+    h1{
+      color: var(--red);
+    }
+  }
+
+  button{
+    border: 0;
+    background-color: transparent;
+    color: var(--red);
+    font-weight: bold;
+    margin: 3rem 0;
+  }
+
+  button:hover{
+    text-decoration: underline;
+  }
+}
