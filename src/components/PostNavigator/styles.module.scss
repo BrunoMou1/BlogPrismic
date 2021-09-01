@@ -1,0 +1,37 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.left{
+  max-width: 350px;
+  text-align: left;
+  span{
+    font-size: 1em;
+    font-weight: regular;
+    color: var(--white);
+  }
+  p{
+    color: var(--red);
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    font-weight: 600;
+  }
+}
+
+.right{
+  max-width: 350px;
+  text-align: right;
+  span{
+    font-size: 1rem;
+    font-weight: regular;
+    color: var(--white);
+  }
+  p{
+    color: var(--red);
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+  }
+}

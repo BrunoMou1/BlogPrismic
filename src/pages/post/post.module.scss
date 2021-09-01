@@ -35,7 +35,6 @@
 }
 
 .content{
-
   padding: 1rem 0;
 
   h2{
@@ -48,4 +47,16 @@
     color: var(--gray-300);
     font-size: 1rem;
   }
+}
+
+.updatedAt{
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--gray-500);
+}
+
+.wrapper{
+  border: 1px solid white;
+  margin: 4rem 0 2rem 0;
 }

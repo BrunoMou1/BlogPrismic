@@ -34,11 +34,6 @@ export default function Home({ postsPagination }: HomeProps) {
 
   const [posts, setPosts] = useState(postsPagination.results)
   const [nextPage, setNextPage] = useState(postsPagination.next_page)
-  const [active, setActive] = useState(true)
-
-  if (nextPage === null) {
-    document.getElementById('btn').style.display='none'
-  }
 
   async function handleClickLoadPost() {
     if (nextPage === null) {
@@ -87,13 +82,13 @@ export default function Home({ postsPagination }: HomeProps) {
             </a>
           </Link>
         ))}
-        <button
-          type='button'
-          id='btn'
-          onClick={handleClickLoadPost}
-        >
-          Carregar mais posts
-        </button>
+        {nextPage && (
+          <button
+            type='button'
+            onClick={handleClickLoadPost}
+          >
+            Carregar mais posts
+          </button>)}
       </main>
     </>
   )
