@@ -1,0 +1,1 @@
+{"ast":null,"code":"import Prismic from '@prismicio/client';\nexport function getPrismicClient(req) {\n  const prismic = Prismic.client(process.env.PRISMIC_API_ENDPOINT, {\n    accessToken: process.env.ACCESS_TOKEN,\n    req\n  });\n  return prismic;\n}","map":null,"metadata":{},"sourceType":"module"}

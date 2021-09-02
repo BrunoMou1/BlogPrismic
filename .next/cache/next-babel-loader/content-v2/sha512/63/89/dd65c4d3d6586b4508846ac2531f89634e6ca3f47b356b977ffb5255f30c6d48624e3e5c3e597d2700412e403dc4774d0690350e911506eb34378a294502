@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default (async (_, res) => {\n  res.clearPreviewData();\n  res.writeHead(307, {\n    Location: \"/\"\n  });\n  res.end();\n});","map":null,"metadata":{},"sourceType":"module"}

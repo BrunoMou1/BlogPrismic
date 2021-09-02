@@ -128,8 +128,8 @@ export default function Post({ post, preview, previousPost, nextPost }: PostProp
         <PostNavigator previous={previousPost} next={nextPost} />
         <Comments />
         {preview && (
-          <aside>
-            <Link href="/api/exit-preview">
+          <aside className={styles.preview}>
+            <Link href="/api/exitPreview">
               <a>Sair do modo Preview</a>
             </Link>
           </aside>

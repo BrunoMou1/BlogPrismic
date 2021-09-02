@@ -2,7 +2,7 @@
   max-width: 720px;
   margin: 0 auto;
   padding: 0 1rem;
-  
+
   a{
     display: block;
     border-bottom: 1px solid rgba($color: #BBBBBB, $alpha: 0.2);
@@ -58,3 +58,20 @@
   }
 }
 
+.preview{
+  background-color: var(--white);
+  height: 3rem;
+  color: var(--black);
+  border-radius: 0.2rem;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  a{
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 0 auto;
+  }
+
+}

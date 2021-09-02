@@ -1,7 +1,10 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
+  "/api/exitPreview": "pages/api/exitPreview.js",
+  "/api/preview": "pages/api/preview.js",
   "/": "pages/index.js",
-  "/post/[slug]": "pages/post/[slug].js"
+  "/post/[slug]": "pages/post/[slug].js",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
 }
